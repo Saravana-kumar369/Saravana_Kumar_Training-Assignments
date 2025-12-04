@@ -8,9 +8,9 @@ public class RegexDemo {
 		
 		String emailPattern = "^[a-z][a-z0-9+._-]+@[a-z]+\\.+[a-z]{2,7}$";
 		char check;
-		Scanner scan = new Scanner(System.in);
+		
 		do {
-			
+			Scanner scan = new Scanner(System.in);
 			System.out.print("Enter Email Id: ");
 			String email = scan.nextLine();
 			
