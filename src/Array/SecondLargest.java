@@ -1,7 +1,5 @@
 package Array;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class SecondLargest {
@@ -32,6 +30,6 @@ public class SecondLargest {
 		}
 		System.out.println("Second largest element in array"+max);
 	
-	
+		scan.close();
 	}
 }

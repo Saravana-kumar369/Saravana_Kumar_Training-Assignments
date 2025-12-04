@@ -20,6 +20,7 @@ public class Frequency {
 			map.put(i, map.getOrDefault(i, 0)+1);
 		}
 		System.out.println(map);
+		scan.close();
 	}
 
 }

@@ -36,6 +36,8 @@ public class Count {
 		System.out.println("Positive numbers count - "+p);
 		System.out.println("Negative numbers count - "+neg);
 		System.out.println("Zero numbers count - "+z);
+		scan.close();
+
 		
 	}
 

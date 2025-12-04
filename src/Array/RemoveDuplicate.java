@@ -21,5 +21,7 @@ public class RemoveDuplicate {
 			set.add(i);
 		}
 		System.out.println(set);
+		
+		scan.close();
 	}
 }

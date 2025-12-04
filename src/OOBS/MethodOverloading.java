@@ -1,5 +1,5 @@
 package OOBS;
-import java.util.*;
+
 class Display{
 	void display(String str)
 	{

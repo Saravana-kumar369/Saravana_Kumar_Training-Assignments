@@ -29,6 +29,7 @@ public class Main {
 		int refNo = scanner.nextInt();
 		Student student = new Student(name, refNo);
 		student.getDetails();
+		scanner.close();
 
 	}
 
